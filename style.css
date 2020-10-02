@@ -1,0 +1,45 @@
+body {
+	background-color: rgb(31, 31, 31);
+	margin: 0 auto;
+}
+
+header {
+	background-color: white;
+	margin: 0 auto;
+}
+
+nav {
+	background-color: white;
+}
+
+nav li {
+	background-color: rgb(247, 34, 34);
+	width: 200px;
+	height: 40px;
+	float: left;
+	border-radius: 25px;
+	list-style: none;
+	padding-top: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 4px;
+}
+
+ul {
+	padding: 0;
+	margin: 0 auto;
+	display: table;
+	max-width: max-content;
+}
+
+li:hover {
+	background-color: rgb(34, 233, 247);
+}
+
+a {
+	text-decoration: none;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 2em;
+	color: black;
+	display: block;
+}
